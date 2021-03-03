@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'org.koderush.dozer'
+version '0.0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.seleniumhq.selenium:selenium-java:3.+'
+}
+
+test {
+    useJUnitPlatform()
+}
